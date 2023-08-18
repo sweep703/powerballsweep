@@ -736,8 +736,8 @@ a {
   display: block;
 }
 .hero {
-  background-image: url("/images/wl.png");
-  object-fit: cover;
+  background-image: url("/images/wl.jpg");
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -749,7 +749,7 @@ a {
     display: none;
   } */
   .hero {
-    background-image: url("/images/wp.png");
+    background-image: url("/images/wp.jpg");
     object-fit: cover;
     background-repeat: no-repeat;
   }
