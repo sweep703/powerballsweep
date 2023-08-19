@@ -725,7 +725,6 @@ p {
     #5ffbf1
   ); */
   background: linear-gradient(to right, #434343 0%, black 100%);
-
 }
 a {
   text-decoration: none !important;
@@ -974,7 +973,6 @@ hr {
   padding: 10px;
 }
 
-
 /* rules */
 .card-tamp {
   /* align-items: center; */
@@ -989,14 +987,15 @@ hr {
 }
 
 .card-outline {
-  /* width: 100%; */
+  width: 100%;
   box-shadow: 0px 0px 10px #4b006e;
 }
 
 .text {
   /* align-items: center; */
+  display: flex;
   justify-content: left;
-  /* text-align: left; */
+  text-align: left;
   padding-left: 50px;
   border: 2px solid #4b006e;
   width: 50%;
@@ -1013,15 +1012,16 @@ hr {
 }
 
 .text2 {
-  /* align-items: center; */
-  justify-content: right !important;
-  /* text-align: left; */
+  align-items: center;
+  justify-content: flex end;
+  margin-left: 50%;
   padding-right: 50px;
+  padding-left: 40px;
+  background: #4b006e;
   border: 2px solid #4b006e;
-  width: 50%;
   border-radius: 35px;
   border-top-right-radius: 0;
-  right: -50px;
+  /* right: -50px; */
   color: #4b006e;
   text-shadow: 0px 0px 10px #4b006e;
   box-shadow: 0px 0px 10px #4b006e;
@@ -1034,7 +1034,7 @@ hr {
   line-height: 30px;
 }
 
-.text2:hover {
+/* .text2:hover {
   background: #4b006e;
   width: 100%;
   box-shadow: 0px 0px 10px #4b006e;
@@ -1047,7 +1047,7 @@ hr {
   box-shadow: 0px 0px 10px #4b006e;
   text-shadow: 0px 0px 10px #4b006e;
   color: rgb(0, 0, 0);
-}
+} */
 
 .card-outline:hover {
   box-shadow: #4b006e 0px 50px 100px -20px, #4b006e 0px 30px 60px -30px,
